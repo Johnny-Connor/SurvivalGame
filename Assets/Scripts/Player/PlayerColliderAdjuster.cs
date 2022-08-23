@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class ColliderAdjuster : MonoBehaviour
+public class PlayerColliderAdjuster : MonoBehaviour
 {
 
     private CharacterController2D _controller;
