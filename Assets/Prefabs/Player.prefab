@@ -210,7 +210,7 @@ MonoBehaviour:
   m_WhatIsGround:
     serializedVersion: 2
     m_Bits: 55
-  m_GroundCheck: {fileID: 3809105700976647599}
+  _extraJumpDetectionHeight: 0.01
 --- !u!114 &8517932636188175325
 MonoBehaviour:
   m_ObjectHideFlags: 0

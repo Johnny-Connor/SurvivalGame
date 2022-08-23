@@ -4,7 +4,6 @@ public class PlayerMovements : MonoBehaviour
 {
 
     private CharacterController2D _controller;
-
     private float _horizontalMove;
     private float _runSpd = 40f;
     private bool _jump;
@@ -23,7 +22,7 @@ public class PlayerMovements : MonoBehaviour
 
     void FixedUpdate()
     {
-        _controller.Move(_horizontalMove * Time.fixedDeltaTime, false, _jump);
+        _controller.Move(_horizontalMove * Time.fixedDeltaTime, _jump);
         _jump = false;
     }
 

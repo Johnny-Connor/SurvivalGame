@@ -4,52 +4,49 @@ using UnityEngine;
 public class CharacterController2D : MonoBehaviour
 {
 
+	// Movement
 	[SerializeField] private float m_JumpForce = 400f;	// Amount of force added when the player jumps.
-	[Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;	// How much to smooth out the movement
-	[SerializeField] private bool m_AirControl = false;	// Whether or not a player can steer while jumping;
-	[SerializeField] private LayerMask m_WhatIsGround;	// A mask determining what is ground to the character
-	[SerializeField] private Transform m_GroundCheck; // A position marking where to check if the player is grounded.
-	private float _groundedRadius = .25f; // A circlecast to the groundcheck position.
-	private bool m_Grounded; // Whether or not the player is grounded.
-	private Rigidbody2D m_Rigidbody2D;
-	private SpriteRenderer _spriteRenderer;
+	[Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;	// How much to smooth out the movement.
+	[SerializeField] private bool m_AirControl = true;	// Whether or not a player can steer while jumping.
+	[SerializeField] private LayerMask m_WhatIsGround;	// A mask determining what is ground to the character.
+	[SerializeField] private float _extraJumpDetectionHeight = .01f; // 
+	private bool _isGrounded; // Whether or not the player is grounded.
 	private Vector3 m_Velocity = Vector3.zero;
-	public event EventHandler OnLandEvent;
+
+	// Components
+	private BoxCollider2D _boxCollider2d;
+	private Rigidbody2D m_Rigidbody2d;
+	private SpriteRenderer _spriteRenderer;
+
+	// Events
 	public event EventHandler OnFlip;
 
 	private void Awake()
 	{
-		m_Rigidbody2D = GetComponent<Rigidbody2D>();
+		_boxCollider2d = GetComponent<BoxCollider2D>();
+		m_Rigidbody2d = GetComponent<Rigidbody2D>();
 		_spriteRenderer = GetComponent<SpriteRenderer>();
 	}
 
 	private void FixedUpdate()
 	{
-		bool wasGrounded = m_Grounded;
-		m_Grounded = false;
-		// The player is grounded if a circlecast to the groundcheck position hits anything designated as ground.
-		// This can be done using layers instead but Sample Assets will not overwrite your project settings.
-		Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, _groundedRadius, m_WhatIsGround);
-		for (int i = 0; i < colliders.Length; i++)
-		{
-			if (colliders[i].gameObject != gameObject)
-			{
-				m_Grounded = true;
-				if (!wasGrounded)
-					OnLandEvent?.Invoke(this, EventArgs.Empty);
-			}
+		bool wasGrounded = _isGrounded;
+		_isGrounded = false;
+		RaycastHit2D raycastHit = Physics2D.BoxCast(_boxCollider2d.bounds.center, _boxCollider2d.bounds.size, 0f, Vector2.down, _extraJumpDetectionHeight, m_WhatIsGround);
+		if (raycastHit.collider != null){
+			_isGrounded = true;
 		}
 	}
 
-	public void Move(float move, bool crouch, bool jump)
+	public void Move(float move, bool jump)
 	{
 		// Only control the player if grounded or airControl is turned on
-		if (m_Grounded || m_AirControl)
+		if (_isGrounded || m_AirControl)
 		{
 			// Move the character by finding the target velocity
-			Vector3 targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.velocity.y);
+			Vector3 targetVelocity = new Vector2(move * 10f, m_Rigidbody2d.velocity.y);
 			// And then smoothing it out and applying it to the character
-			m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
+			m_Rigidbody2d.velocity = Vector3.SmoothDamp(m_Rigidbody2d.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
 
 			// If the input is moving the player right and the player is facing left...
 			if (move > 0 && _spriteRenderer.flipX)
@@ -65,11 +62,11 @@ public class CharacterController2D : MonoBehaviour
 			}
 		}
 		// If the player should jump...
-		if (m_Grounded && jump)
+		if (_isGrounded && jump)
 		{
 			// Add a vertical force to the player.
-			m_Grounded = false;
-			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+			_isGrounded = false;
+			m_Rigidbody2d.AddForce(new Vector2(0f, m_JumpForce));
 		}
 	}
 

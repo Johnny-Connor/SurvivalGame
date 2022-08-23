@@ -14,6 +14,10 @@ public class ColliderAdjuster : MonoBehaviour
         _spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
+    private void Start() {
+        _controller.OnFlip += AdjustCollider;
+    }
+
     private void AdjustCollider(object sender, EventArgs e){
         if (!_spriteRenderer.flipX){
             _boxCollider2d.offset = new Vector2 (-0.042f, -0.083f);
