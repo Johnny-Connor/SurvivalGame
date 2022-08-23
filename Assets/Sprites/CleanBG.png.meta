@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0d4858a8c3e53d1479001d15cee45c76
+guid: ea476cd8e36815249a01890ee465e445
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -138,154 +138,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Blocks_0
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 37
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc8b87edd7913514095f20fca124f446
-      internalID: -854978872
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blocks_1
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 37
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bb53f9b41359b5d4fbd13cc7f01099aa
-      internalID: -1891118150
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blocks_2
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 37
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 316262a8d4f7af8448e806e321c914d0
-      internalID: -1411067412
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blocks_3
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 19
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68321524121e4e04abc051ecd445c8c6
-      internalID: -681822328
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blocks_4
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 19
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c5bcc7a46d3d3864fba7411130d39436
-      internalID: 792752810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blocks_5
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 19
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e769d7d35174920448c8e3d7661c7ebe
-      internalID: 1210991185
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blocks_6
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 1
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af87288b44c4f3640a4ac0739ee4ded6
-      internalID: 938375855
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -296,14 +149,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Blocks_4: 792752810
-      Blocks_6: 938375855
-      Blocks_1: -1891118150
-      Blocks_3: -681822328
-      Blocks_0: -854978872
-      Blocks_2: -1411067412
-      Blocks_5: 1210991185
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
