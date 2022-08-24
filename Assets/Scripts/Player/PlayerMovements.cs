@@ -5,7 +5,7 @@ public class PlayerMovements : MonoBehaviour
 
     private CharacterController2D _controller;
     private float _horizontalMove;
-    private float _spd = 40f;
+    private float _spd = 30f;
     private float _runSpdBonus = 20f;
     private bool _jump;
 
