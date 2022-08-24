@@ -44,12 +44,14 @@ public class NpcChase : MonoBehaviour
     }
 
     void Fliper(){
-        if (_player.transform.position.x - _rb2d.transform.position.x > 0 && _spriteRenderer.flipX){
-            _spriteRenderer.flipX = !_spriteRenderer.flipX;
+
+        if (_player.transform.position.x - _rb2d.transform.position.x > 0 && transform.localScale.x == -1){
+            transform.localScale = new Vector3(1, transform.localScale.y, transform.localScale.z);
         }
-        else if (_player.transform.position.x - _rb2d.transform.position.x < 0 && !_spriteRenderer.flipX){
-            _spriteRenderer.flipX = !_spriteRenderer.flipX;
+        else if (_player.transform.position.x - _rb2d.transform.position.x < 0 && transform.localScale.x == 1){
+            transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
         }
+
     }
 
     ChaseTarget(_stats.Spd, _stats.Range);

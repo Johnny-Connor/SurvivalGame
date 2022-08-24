@@ -45,16 +45,14 @@ public class CharacterController2D : MonoBehaviour
 			m_Rigidbody2d.velocity = Vector3.SmoothDamp(m_Rigidbody2d.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
 
 			// If the input is moving the player right and the player is facing left...
-			if (move > 0 && _spriteRenderer.flipX)
+			if (move > 0 && transform.localScale.x == -1)
 			{
-				// ... flip the player.
-				Flip();
+				FaceRight(true);
 			}
 			// Otherwise if the input is moving the player left and the player is facing right...
-			else if (move < 0 && !_spriteRenderer.flipX)
+			else if (move < 0 && transform.localScale.x == 1)
 			{
-				// ... flip the player.
-				Flip();
+				FaceRight(false);
 			}
 		}
 		// If the player should jump...
@@ -66,10 +64,14 @@ public class CharacterController2D : MonoBehaviour
 		}
 	}
 
-	private void Flip()
+	private void FaceRight(bool option)
 	{
-		// Switch the way the player is facing.
-		_spriteRenderer.flipX = !_spriteRenderer.flipX;
+		if (option){
+			transform.localScale = new Vector3(1, transform.localScale.y, transform.localScale.z);
+		}
+		else{
+			transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
+		}
 	}
 
 }
