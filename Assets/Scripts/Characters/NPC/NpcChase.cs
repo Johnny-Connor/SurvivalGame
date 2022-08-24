@@ -10,7 +10,7 @@ public class NpcChase : MonoBehaviour
     private SpriteRenderer _spriteRenderer;
 
     // Target (Player).
-    private GameObject _player;
+    private Transform _player;
 
     // Events.
     public event EventHandler OnTargetChase;
@@ -24,34 +24,36 @@ public class NpcChase : MonoBehaviour
 
     private void Start() {
         if (GameObject.FindGameObjectWithTag("Player")){
-            _player = GameObject.FindGameObjectWithTag("Player");
+            _player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         }
     }
 
     private void FixedUpdate() {
 
     void ChaseTarget(float spd, float range){
-        // Direction to go towards to.
-        Vector3 dir = (_player.transform.position - _rb2d.transform.position).normalized;
-        // Chase condition.
-        if (Vector3.Distance(_player.transform.position, _rb2d.transform.position) > range){
-            _rb2d.MovePosition(_rb2d.transform.position + dir * spd * Time.fixedDeltaTime);
-            OnTargetChase?.Invoke(this, EventArgs.Empty);
-        }
-        else{
-            OnTargetCaught?.Invoke(this, EventArgs.Empty);
+        if (_player){
+            // Direction to go towards to.
+            Vector3 dir = (_player.transform.position - _rb2d.transform.position).normalized;
+            // Chase condition.
+            if (Vector3.Distance(_player.transform.position, _rb2d.transform.position) > range){
+                _rb2d.MovePosition(_rb2d.transform.position + dir * spd * Time.fixedDeltaTime);
+                OnTargetChase?.Invoke(this, EventArgs.Empty);
+            }
+            else{
+                OnTargetCaught?.Invoke(this, EventArgs.Empty);
+            }
         }
     }
 
     void Fliper(){
-
-        if (_player.transform.position.x - _rb2d.transform.position.x > 0 && transform.localScale.x == -1){
-            transform.localScale = new Vector3(1, transform.localScale.y, transform.localScale.z);
+        if (_player){
+            if (_player.transform.position.x - _rb2d.transform.position.x > 0 && transform.localScale.x == -1){
+                transform.localScale = new Vector3(1, transform.localScale.y, transform.localScale.z);
+            }
+            else if (_player.transform.position.x - _rb2d.transform.position.x < 0 && transform.localScale.x == 1){
+                transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
+            }
         }
-        else if (_player.transform.position.x - _rb2d.transform.position.x < 0 && transform.localScale.x == 1){
-            transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
-        }
-
     }
 
     ChaseTarget(_stats.Spd, _stats.Range);
