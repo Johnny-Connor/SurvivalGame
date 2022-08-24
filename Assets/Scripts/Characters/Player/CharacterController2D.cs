@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class CharacterController2D : MonoBehaviour
@@ -17,9 +16,6 @@ public class CharacterController2D : MonoBehaviour
 	private BoxCollider2D _boxCollider2d;
 	private Rigidbody2D m_Rigidbody2d;
 	private SpriteRenderer _spriteRenderer;
-
-	// Events
-	public event EventHandler OnFlip;
 
 	private void Awake()
 	{
@@ -74,7 +70,6 @@ public class CharacterController2D : MonoBehaviour
 	{
 		// Switch the way the player is facing.
 		_spriteRenderer.flipX = !_spriteRenderer.flipX;
-		OnFlip?.Invoke(this, EventArgs.Empty);
 	}
 
 }
