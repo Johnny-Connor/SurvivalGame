@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class NameTagFollow : MonoBehaviour
+public class CanvasFollow : MonoBehaviour
 {
 
     [SerializeField] private Transform _target;

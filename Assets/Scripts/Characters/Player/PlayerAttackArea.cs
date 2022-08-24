@@ -1,12 +1,16 @@
 using UnityEngine;
 
-public class PlayerWeapon : MonoBehaviour
+public class PlayerAttackArea : MonoBehaviour
 {
 
     private Stats _targetStats;
-    private float _wpnDmg = 25;
+    private Stats _playerStats;
     private string _nPCLayerName = "NPC";
     private bool _isColTriggered = false;
+
+    private void Awake() {
+        _playerStats = GetComponentInParent<Stats>();
+    }
 
     private void OnTriggerStay2D(Collider2D col) {
         if (col.gameObject.layer == LayerMask.NameToLayer(_nPCLayerName)){
@@ -24,7 +28,7 @@ public class PlayerWeapon : MonoBehaviour
 
     private void Update() {
         if (_isColTriggered && Input.GetButtonDown("Fire1")){
-            _targetStats.AddHealth(_wpnDmg * -1);
+            _targetStats.AddHealth(_playerStats.Dmg * -1);
         }
     }
 
