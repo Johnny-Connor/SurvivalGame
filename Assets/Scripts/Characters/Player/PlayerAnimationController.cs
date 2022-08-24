@@ -11,7 +11,13 @@ public class PlayerAnimationController : MonoBehaviour
 
     private void Update() {
 
-        void AnimationTrigger(){
+        void AttackAnimationTrigger(){
+            if (Input.GetButtonDown("Fire1")){
+                _animator.SetTrigger("Swing");
+            }
+        }
+
+        void MovementAnimationsTrigger(){
             if (Input.GetAxisRaw("Horizontal") == 0){
                 _animator.SetInteger("IdleWalkRun", 0);
             }
@@ -25,7 +31,8 @@ public class PlayerAnimationController : MonoBehaviour
             }
         }
 
-        AnimationTrigger();
+        AttackAnimationTrigger();
+        MovementAnimationsTrigger();
 
     }
 
