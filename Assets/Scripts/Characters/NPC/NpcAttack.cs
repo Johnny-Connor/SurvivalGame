@@ -24,7 +24,9 @@ public class NpcAttack : MonoBehaviour
     }
 
     private void DamagePlayer(object sender, EventArgs e){
-        _playerStats.AddHealth(_stats.Dmg * -1);
+        if(_playerStats){
+            _playerStats.AddHealth(_stats.Dmg * -1);
+        }
     }
 
 }

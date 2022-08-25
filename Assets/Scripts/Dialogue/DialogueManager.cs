@@ -1,12 +1,19 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class DialogueManager : MonoBehaviour
 {
 
+    // Variables
     [SerializeField] private Queue<string> _sentences;
+
+    // Components
     private PlayerMovements _playerMovements;
-    private bool _isDialogueOver;
+
+    // Events
+    public EventHandler OnDialogueStart;
+    public EventHandler OnDialogueEnd;
 
     private void Awake()
     {
@@ -24,12 +31,13 @@ public class DialogueManager : MonoBehaviour
     }
 
     public void StartDialogue (Dialogue dialogue){
-        Debug.Log("Dialogue Start");
-        _playerMovements.IsMovementEnabled = false;
-        Debug.Log("Movement disabled");
 
+        OnDialogueStart?.Invoke(this, EventArgs.Empty);
+
+        // Clear previous sentences.
         _sentences.Clear();
 
+        // Insert new sentences to queue.
         foreach (string sentence in dialogue.sentences){
             _sentences.Enqueue(sentence);
         }
@@ -42,8 +50,7 @@ public class DialogueManager : MonoBehaviour
     public void DisplayNextSentence(){
 
         void EndDialogue(){
-            _playerMovements.IsMovementEnabled = true;
-            Debug.Log("Dialogue Over");
+            OnDialogueEnd?.Invoke(this, EventArgs.Empty);
         }
 
         if (_sentences.Count == 0){

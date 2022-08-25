@@ -6,6 +6,7 @@ public class NpcChase : MonoBehaviour
 
     // Variables
     [SerializeField] private bool _canFloat;
+    private bool _isMovementEnabled = true;
 
     // Components.
     private Stats _stats;
@@ -15,9 +16,13 @@ public class NpcChase : MonoBehaviour
     // Target (Player).
     private Transform _player;
 
+    // Managers
+    private DialogueManager _dialogueManager;
+
     // Events.
     public event EventHandler OnTargetChase;
     public event EventHandler OnTargetCaught;
+    public event EventHandler OnTargetMovementDisabled;
 
     private void Awake() {
         _rb2d = GetComponent<Rigidbody2D>();
@@ -29,12 +34,15 @@ public class NpcChase : MonoBehaviour
         if (GameObject.FindGameObjectWithTag("Player")){
             _player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         }
+        _dialogueManager = GameObject.Find("DialogueManager").GetComponent<DialogueManager>();
+        _dialogueManager.OnDialogueStart += SwitchIsMovementEnabled;
+        _dialogueManager.OnDialogueEnd += SwitchIsMovementEnabled;
     }
 
     private void FixedUpdate() {
 
     void ChaseTarget(float spd, float range){
-        if (_player){
+        if (_player && _isMovementEnabled){
             // Direction to go towards to.
             Vector3 dir;
             if (_canFloat){
@@ -52,6 +60,9 @@ public class NpcChase : MonoBehaviour
                 OnTargetCaught?.Invoke(this, EventArgs.Empty);
             }
         }
+        else{
+            OnTargetMovementDisabled?.Invoke(this, EventArgs.Empty);
+        }
     }
 
     void Fliper(){
@@ -68,6 +79,14 @@ public class NpcChase : MonoBehaviour
     ChaseTarget(_stats.Spd, _stats.Range);
     Fliper();
 
+    }
+
+    private void SwitchIsMovementEnabled(object sender, EventArgs e){
+        _isMovementEnabled = !_isMovementEnabled;
+    }
+
+    public bool IsMovementEnabled{
+        get { return _isMovementEnabled; }
     }
 
 }

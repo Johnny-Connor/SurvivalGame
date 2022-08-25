@@ -10,7 +10,7 @@ public class NpcChaseAnimationsController : MonoBehaviour
     private void Awake() {
         _animator = GetComponentInParent<Animator>();
         _npcChase = GetComponent<NpcChase>();
-        _npcChase.OnTargetCaught += SwitchToIdleAnim;
+        _npcChase.OnTargetMovementDisabled += SwitchToIdleAnim;
         _npcChase.OnTargetChase += SwitchToWalkAnim;
     }
 
