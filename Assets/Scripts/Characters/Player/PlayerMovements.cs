@@ -8,6 +8,7 @@ public class PlayerMovements : MonoBehaviour
     private float _horizontalMove;
     private float _runSpdBonus = 20f;
     private bool _jump;
+    [SerializeField] private bool _isMovementEnabled = true;
 
     private void Awake() {
         _controller = GetComponent<CharacterController2D>();
@@ -17,14 +18,16 @@ public class PlayerMovements : MonoBehaviour
     private void Update() {
 
         void ReadInputs(){
-            if (Input.GetButton("Fire3")){
-                _horizontalMove = Input.GetAxisRaw("Horizontal") * (_stats.Spd + _runSpdBonus);
-            }
-            else{
-                _horizontalMove = Input.GetAxisRaw("Horizontal") * _stats.Spd;
-            }
-            if (Input.GetButtonDown("Jump")){
-                _jump = true;
+            if(_isMovementEnabled){
+                if (Input.GetButton("Fire3")){
+                    _horizontalMove = Input.GetAxisRaw("Horizontal") * (_stats.Spd + _runSpdBonus);
+                }
+                else{
+                    _horizontalMove = Input.GetAxisRaw("Horizontal") * _stats.Spd;
+                }
+                if (Input.GetButtonDown("Jump")){
+                    _jump = true;
+                }
             }
         }
 
@@ -36,12 +39,22 @@ public class PlayerMovements : MonoBehaviour
     {
 
         void ProcessInputs(){
-            _controller.Move(_horizontalMove * Time.fixedDeltaTime, _jump);
-            _jump = false;
+            if (_isMovementEnabled){
+                _controller.Move(_horizontalMove * Time.fixedDeltaTime, _jump);
+                _jump = false;
+            }
+            else{
+                _controller.Move(0 * Time.fixedDeltaTime, false);                
+            }
         }
 
         ProcessInputs();
 
+    }
+
+    public bool IsMovementEnabled{
+        get { return _isMovementEnabled; }
+        set { _isMovementEnabled = value; }
     }
 
 }
