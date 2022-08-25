@@ -2409,6 +2409,7 @@ GameObject:
   - component: {fileID: 2144756247}
   - component: {fileID: 2144756249}
   - component: {fileID: 2144756248}
+  - component: {fileID: 2144756250}
   m_Layer: 5
   m_Name: DialogueBox
   m_TagString: Untagged
@@ -2476,6 +2477,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2144756246}
   m_CullTransparentMesh: 1
+--- !u!95 &2144756250
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144756246}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5d96a65b5b4468f4ea7d6837f2b05685, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &7144906950317642947
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2483,6 +2504,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7144906952076123573, guid: 0eddcea7ea39b924aaa08b5480cb5eb8, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 2144756250}
+    - target: {fileID: 7144906952076123573, guid: 0eddcea7ea39b924aaa08b5480cb5eb8, type: 3}
+      propertyPath: _sentencesText
+      value: 
+      objectReference: {fileID: 1433065967}
     - target: {fileID: 7144906952076123574, guid: 0eddcea7ea39b924aaa08b5480cb5eb8, type: 3}
       propertyPath: m_RootOrder
       value: 1

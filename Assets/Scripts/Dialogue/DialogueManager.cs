@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -10,6 +11,10 @@ public class DialogueManager : MonoBehaviour
 
     // Components
     private PlayerMovements _playerMovements;
+    [SerializeField] private Animator _animator;
+
+    // UI
+    [SerializeField] private TMP_Text _sentencesText;
 
     // Events
     public EventHandler OnDialogueStart;
@@ -32,6 +37,8 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue (Dialogue dialogue){
 
+        _animator.SetBool("isOpen", true);
+
         OnDialogueStart?.Invoke(this, EventArgs.Empty);
 
         // Clear previous sentences.
@@ -51,6 +58,7 @@ public class DialogueManager : MonoBehaviour
 
         void EndDialogue(){
             OnDialogueEnd?.Invoke(this, EventArgs.Empty);
+            _animator.SetBool("isOpen", false);
         }
 
         if (_sentences.Count == 0){
@@ -59,7 +67,7 @@ public class DialogueManager : MonoBehaviour
         }
 
         string sentence = _sentences.Dequeue();
-        Debug.Log(sentence);
+        _sentencesText.text = sentence;
 
     }
 
