@@ -327,10 +327,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6785294453298190156}
+  - component: {fileID: 2848954184741840584}
   - component: {fileID: 2889994037821479560}
   - component: {fileID: 4590451677498271889}
   - component: {fileID: 8517932636188175325}
-  - component: {fileID: 2848954184741840584}
   - component: {fileID: 132775595679122725}
   - component: {fileID: 517683383552532828}
   - component: {fileID: 6528848477701727682}
@@ -358,6 +358,22 @@ Transform:
   m_Father: {fileID: 872998094263448630}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2848954184741840584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6785294453298190159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9b1de2de34c0f41a38ca2c85d2cf78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _health: 100
+  _dmg: 25
+  _spd: 35
+  _range: 0
 --- !u!114 &2889994037821479560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -389,6 +405,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 55
   _extraJumpDetectionHeight: 0.01
+  _isGrounded: 0
 --- !u!114 &8517932636188175325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -401,22 +418,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7c6b74fcafc5e64ca736509c4202eb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2848954184741840584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6785294453298190159}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb9b1de2de34c0f41a38ca2c85d2cf78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _health: 100
-  _dmg: 25
-  _spd: 35
-  _range: 0
 --- !u!212 &132775595679122725
 SpriteRenderer:
   m_ObjectHideFlags: 0

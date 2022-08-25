@@ -17,6 +17,7 @@ public class Stats : MonoBehaviour
 
     public float Health{
         get { return _health; }
+        set { _health = value; }
     }
 
     public float Dmg{
