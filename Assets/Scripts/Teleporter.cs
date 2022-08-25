@@ -23,7 +23,7 @@ public class Teleporter : MonoBehaviour
         _animator.SetTrigger("FadeOut");
     }
 
-    public void OnFadeComplete(int levelIndex){
+    public void OnFadeComplete(){
         Time.timeScale = 1;
         SceneManager.LoadScene(_teleportToSceneIndex);
     }

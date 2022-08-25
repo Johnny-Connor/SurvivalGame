@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Stats : MonoBehaviour
@@ -8,16 +9,17 @@ public class Stats : MonoBehaviour
     [SerializeField] private float _spd;
     [SerializeField] private float _range;
 
+    public event EventHandler OnEntityDeath;
+
     public void AddHealth(float value){
         _health += value;
         if (_health <= 0){
-            Destroy(transform.parent.gameObject);
+            OnEntityDeath?.Invoke(this, EventArgs.Empty);
         }
     }
 
     public float Health{
         get { return _health; }
-        set { _health = value; }
     }
 
     public float Dmg{
