@@ -9,7 +9,7 @@ public class CharacterController2D : MonoBehaviour
 	[SerializeField] private bool m_AirControl = true;	// Whether or not a player can steer while jumping.
 	[SerializeField] private LayerMask m_WhatIsGround;	// A mask determining what is ground to the character.
 	[SerializeField] private float _extraJumpDetectionHeight = .01f; // 
-	private bool _isGrounded; // Whether or not the player is grounded.
+	[SerializeField] private bool _isGrounded; // Whether or not the player is grounded.
 	private Vector3 m_Velocity = Vector3.zero;
 
 	// Components
@@ -26,10 +26,10 @@ public class CharacterController2D : MonoBehaviour
 
 	private void FixedUpdate()
 	{
-		bool wasGrounded = _isGrounded;
 		_isGrounded = false;
 		RaycastHit2D raycastHit = Physics2D.BoxCast(_boxCollider2d.bounds.center, _boxCollider2d.bounds.size, 0f, Vector2.down, _extraJumpDetectionHeight, m_WhatIsGround);
 		if (raycastHit.collider != null){
+			// Debug.Log(raycastHit.collider.gameObject);
 			_isGrounded = true;
 		}
 	}

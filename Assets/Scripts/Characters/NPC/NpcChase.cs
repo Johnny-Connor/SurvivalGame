@@ -33,7 +33,7 @@ public class NpcChase : MonoBehaviour
     void ChaseTarget(float spd, float range){
         if (_player){
             // Direction to go towards to.
-            Vector3 dir = (_player.transform.position - _rb2d.transform.position).normalized;
+            Vector3 dir = new Vector3(_player.transform.position.x - _rb2d.transform.position.x, 0f, 0f).normalized;
             // Chase condition.
             if (Vector3.Distance(_player.transform.position, _rb2d.transform.position) > range){
                 _rb2d.MovePosition(_rb2d.transform.position + dir * spd * Time.fixedDeltaTime);
