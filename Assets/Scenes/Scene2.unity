@@ -265,7 +265,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.43921572, g: 0.6156863, b: 0.9294118, a: 1}
+  m_BackGroundColor: {r: 0.28235295, g: 0.39607847, b: 0.6, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -369,7 +369,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: _dialogue.sentences.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: _dialogue.sentences.Array.data[0]
@@ -387,15 +387,15 @@ PrefabInstance:
         <FreezingCold> I don''t understand, is this a bug?
         I must investigate around, maybe I left them in another house.
 
-        <FreezingCold>
-        I won''t make it if I don''t sprint.'
+        <System>
+        Press ''Space'' to jump.
+
+        <FreezingCold> I won''t make it if I don''t
+        sprint.'
       objectReference: {fileID: 0}
     - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: _dialogue.sentences.Array.data[1]
-      value: '<FreezingCold> Today, I will finally make my diamonds tools!
-
-        <FreezingCold>
-        I just have to get the diamonds I gathered in my chest!
+      value: '<FreezingCold> I just have to get the diamonds I gathered in my chest!
 
         <FreezingCold>
         ...what?
@@ -406,15 +406,17 @@ PrefabInstance:
         <FreezingCold> I don''t understand, is this a bug?
         I must investigate around, maybe I left them in another house.
 
-        <FreezingCold>
-        I won''t make it if I don''t sprint.'
+        <System>
+        Press ''Space'' to jump.
+
+        <FreezingCold> I won''t make it if I don''t
+        sprint.
+
+        <System> Press ''LShift'' to sprint.'
       objectReference: {fileID: 0}
     - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: _dialogue.sentences.Array.data[2]
-      value: '<FreezingCold> Today, I will finally make my diamonds tools!
-
-        <FreezingCold>
-        I just have to get the diamonds I gathered in my chest!
+      value: '<FreezingCold> I just have to get the diamonds I gathered in my chest!
 
         <FreezingCold>
         ...what?
@@ -425,8 +427,13 @@ PrefabInstance:
         <FreezingCold> I don''t understand, is this a bug?
         I must investigate around, maybe I left them in another house.
 
-        <FreezingCold>
-        I won''t make it if I don''t sprint.'
+        <System>
+        Press ''Space'' to jump.
+
+        <FreezingCold> I won''t make it if I don''t
+        sprint.
+
+        <System> Press ''LShift'' to sprint.'
       objectReference: {fileID: 0}
     - target: {fileID: 7280896505500536942, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: m_Name
@@ -492,7 +499,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6978225812581964164, guid: 578f8f1d124404e4da553070d3274cee, type: 3}
       propertyPath: m_text
-      value: Lorem Ipsum
+      value: Lorem Ipsum.
       objectReference: {fileID: 0}
     - target: {fileID: 6978225813717018663, guid: 578f8f1d124404e4da553070d3274cee, type: 3}
       propertyPath: m_Name

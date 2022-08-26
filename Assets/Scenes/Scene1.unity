@@ -180,6 +180,68 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0eddcea7ea39b924aaa08b5480cb5eb8, type: 3}
+--- !u!1001 &493314332
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1477722805}
+    m_Modifications:
+    - target: {fileID: 7280896505500536942, guid: b0c2d7d55176fc74b82e84f58d8fe2e8, type: 3}
+      propertyPath: m_Name
+      value: KillBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: b0c2d7d55176fc74b82e84f58d8fe2e8, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: b0c2d7d55176fc74b82e84f58d8fe2e8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: b0c2d7d55176fc74b82e84f58d8fe2e8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: b0c2d7d55176fc74b82e84f58d8fe2e8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: b0c2d7d55176fc74b82e84f58d8fe2e8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: b0c2d7d55176fc74b82e84f58d8fe2e8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: b0c2d7d55176fc74b82e84f58d8fe2e8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: b0c2d7d55176fc74b82e84f58d8fe2e8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: b0c2d7d55176fc74b82e84f58d8fe2e8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: b0c2d7d55176fc74b82e84f58d8fe2e8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: b0c2d7d55176fc74b82e84f58d8fe2e8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b0c2d7d55176fc74b82e84f58d8fe2e8, type: 3}
+--- !u!4 &493314333 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7280896505500536943, guid: b0c2d7d55176fc74b82e84f58d8fe2e8, type: 3}
+  m_PrefabInstance: {fileID: 493314332}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -216,7 +278,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.47058827, g: 0.6627451, b: 1, a: 0}
+  m_BackGroundColor: {r: 0.427451, g: 0.6, b: 0.909804, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -264,6 +326,114 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &552237301
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1477722805}
+    m_Modifications:
+    - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: _dialogue.sentences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: _dialogue.sentences.Array.data[0]
+      value: '<FreezingCold> Today, I will finally make my diamonds tools!
+
+        <FreezingCold>
+        I just have to get the diamonds I gathered in my chest!
+
+        <System>
+        Use ''A'' and ''D'' keys to move horizontally.
+
+        <FreezingCold> ...what?
+
+        <FreezingCold>
+        WHERE ARE MY HARD EARNED DIAMONDS?! THEY ARE ALL GONE!!!
+
+        <FreezingCold>
+        I don''t understand, is this a bug? I must investigate around, maybe I left
+        them in another house.
+
+        <System> Press ''Space'' to jump.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: _dialogue.sentences.Array.data[1]
+      value: '<FreezingCold> Today, I will finally make my diamonds tools!
+
+        <FreezingCold>
+        I just have to get the diamonds I gathered in my chest!
+
+        <System>
+        Use ''A'' and ''D'' keys to move horizontally.
+
+        <FreezingCold> ...what?
+
+        <FreezingCold>
+        WHERE ARE MY HARD EARNED DIAMONDS?! THEY ARE ALL GONE!!!
+
+        <FreezingCold>
+        I don''t understand, is this a bug? I must investigate around, maybe I left
+        them in another house.
+
+        <System> Press ''Space'' to jump.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536942, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: m_Name
+      value: DialogueTriggerBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+--- !u!4 &552237302 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7280896505500536943, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+  m_PrefabInstance: {fileID: 552237301}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &601351197
 GameObject:
   m_ObjectHideFlags: 0
@@ -1860,6 +2030,8 @@ Transform:
   m_Children:
   - {fileID: 808569127}
   - {fileID: 808434690}
+  - {fileID: 552237302}
+  - {fileID: 493314333}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
