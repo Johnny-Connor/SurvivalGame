@@ -174,7 +174,7 @@ MonoBehaviour:
   _health: 250
   _dmg: 1.75
   _spd: 6
-  _range: 1
+  _range: 0.9
   _respawnPoint: {x: 0, y: 0}
 --- !u!114 &3490850071144345115
 MonoBehaviour:

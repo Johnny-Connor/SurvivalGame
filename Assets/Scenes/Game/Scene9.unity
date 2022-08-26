@@ -246,7 +246,7 @@ PrefabInstance:
         <BurningHot> Not just another player, it''s
         me, bro!
 
-        <BurningHot> And if you don''t do my shores irl from now
+        <BurningHot> And if you don''t do my chores irl from now
         on, I''ll conquer your world! >:D'
       objectReference: {fileID: 0}
     - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
@@ -265,7 +265,7 @@ PrefabInstance:
         <BurningHot> Not just another player, it''s me, bro!
 
         <BurningHot>
-        And if you don''t do my shores irl from now on, I''ll conquer your world!
+        And if you don''t do my chores irl from now on, I''ll conquer your world!
         >:D
 
         <FreezingCold> That''s nonsense! Give me my diamonds back!!!'
@@ -283,7 +283,7 @@ PrefabInstance:
         <BurningHot> Not just another player, it''s
         me, bro!
 
-        <BurningHot> And if you don''t do my shores irl from now
+        <BurningHot> And if you don''t do my chores irl from now
         on, I''ll conquer your world! >:D
 
         <FreezingCold> That''s nonsense!
@@ -351,11 +351,11 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1213151963}
     m_Modifications:
     - target: {fileID: 3490850069174767740, guid: 23f1ed26dd9c87e4cad89b84ac997430, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3490850069174767740, guid: 23f1ed26dd9c87e4cad89b84ac997430, type: 3}
       propertyPath: m_LocalPosition.x
@@ -375,15 +375,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3490850069174767740, guid: 23f1ed26dd9c87e4cad89b84ac997430, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3490850069174767740, guid: 23f1ed26dd9c87e4cad89b84ac997430, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3490850069174767740, guid: 23f1ed26dd9c87e4cad89b84ac997430, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3490850069174767740, guid: 23f1ed26dd9c87e4cad89b84ac997430, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -584,8 +584,331 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _dialogue:
     sentences:
-    - fuuuuuuu i lost
-    - hell yeah
+    - '<FreezingCold> WHAT? ANOTHER PLAYER?!
+
+      <FreezingCold> THAT''S IMPOSSIBLE,
+      THIS IS A SINGLEPLAYER WORLD!
+
+      <BurningHot> Not just another player,
+      it''s me, bro!
+
+      <BurningHot> And if you don''t do my shores irl from
+      now on, I''ll conquer your world! >:D
+
+      <FreezingCold> That''s nonsense!
+      Give me my diamonds back!!!
+
+      <BurningHot> Come get them!
+
+      <BurningHot>
+      NOOOOOOO!!! HOW DID I LOSE?!'
+    - '<FreezingCold> THAT''S IMPOSSIBLE, THIS IS A SINGLEPLAYER WORLD!
+
+      <BurningHot>
+      Not just another player, it''s me, bro!
+
+      <BurningHot> And if you don''t
+      do my shores irl from now on, I''ll conquer your world! >:D
+
+      <FreezingCold>
+      That''s nonsense! Give me my diamonds back!!!
+
+      <BurningHot> Come get
+      them!
+
+      <BurningHot> NOOOOOOO!!! HOW DID I LOSE?!
+
+      <BurningHot>
+      I WAS USING THE BEST SET IN THE GAME!'
+    - 'SINGLEPLAYER WORLD!
+
+      <BurningHot> Not just another player, it''s me,
+      bro!
+
+      <BurningHot> And if you don''t do my shores irl from now on, I''ll
+      conquer your world! >:D
+
+      <FreezingCold> That''s nonsense! Give me my
+      diamonds back!!!
+
+      <BurningHot> Come get them!
+
+      <BurningHot> NOOOOOOO!!!
+      HOW DID I LOSE?!
+
+      <BurningHot> I WAS USING THE BEST SET IN THE GAME!
+
+      <FreezingCold>
+      I''m an experienced player, you know?'
+    - '<BurningHot> And if you don''t do my shores irl from now on, I''ll conquer
+      your world! >:D
+
+      <FreezingCold> That''s nonsense! Give me my diamonds
+      back!!!
+
+      <BurningHot> Come get them!
+
+      <BurningHot> NOOOOOOO!!!
+      HOW DID I LOSE?!
+
+      <BurningHot> I WAS USING THE BEST SET IN THE GAME!
+
+      <FreezingCold>
+      I''m an experienced player, you know?
+
+      <BurningHot> I haven''t set my
+      spawn point yet, so I spawned really far away from your base!'
+    - '<FreezingCold> That''s nonsense! Give me my diamonds back!!!
+
+      <BurningHot>
+      Come get them!
+
+      <BurningHot> NOOOOOOO!!! HOW DID I LOSE?!
+
+      <BurningHot>
+      I WAS USING THE BEST SET IN THE GAME!
+
+      <FreezingCold> I''m an experienced
+      player, you know?
+
+      <BurningHot> I haven''t set my spawn point yet, so
+      I spawned really far away from your base!
+
+      <BurningHot> And it''s night
+      time! There are so many zombies over here!'
+    - '<BurningHot> Come get them!
+
+      <BurningHot> NOOOOOOO!!! HOW DID I LOSE?!
+
+      <BurningHot>
+      I WAS USING THE BEST SET IN THE GAME!
+
+      <FreezingCold> I''m an experienced
+      player, you know?
+
+      <BurningHot> I haven''t set my spawn point yet, so
+      I spawned really far away from your base!
+
+      <BurningHot> And it''s night
+      time! There are so many zombies over here!
+
+      <FreezingCold> That''s what
+      you get for stealing other people''s stuff!'
+    - '<BurningHot> I WAS USING THE BEST SET IN THE GAME!
+
+      <FreezingCold> I''m
+      an experienced player, you know?
+
+      <BurningHot> I haven''t set my spawn
+      point yet, so I spawned really far away from your base!
+
+      <BurningHot>
+      And it''s night time! There are so many zombies over here!
+
+      <FreezingCold>
+      That''s what you get for stealing other people''s stuff!
+
+      <BurningHot>
+      I''m sorry, the real reason why I stole your diamonds was because I''ve never
+      had any before. :('
+    - '<BurningHot> I haven''t set my spawn point yet, so I spawned really far away
+      from your base!
+
+      <BurningHot> And it''s night time! There are so many
+      zombies over here!
+
+      <FreezingCold> That''s what you get for stealing
+      other people''s stuff!
+
+      <BurningHot> I''m sorry, the real reason why
+      I stole your diamonds was because I''ve never had any before. :(
+
+      <BurningHot>
+      And whenever I saw you holding them, I felt bad.'
+    - '<BurningHot> And it''s night time! There are so many zombies over here!
+
+      <FreezingCold>
+      That''s what you get for stealing other people''s stuff!
+
+      <BurningHot>
+      I''m sorry, the real reason why I stole your diamonds was because I''ve never
+      had any before. :(
+
+      <BurningHot> And whenever I saw you holding them,
+      I felt bad.
+
+      <BurningHot> So yesterday I secretly used your computer
+      to set your world to LAN so I could join in and get some.'
+    - '<FreezingCold> That''s what you get for stealing other people''s stuff!
+
+      <BurningHot>
+      I''m sorry, the real reason why I stole your diamonds was because I''ve never
+      had any before. :(
+
+      <BurningHot> And whenever I saw you holding them,
+      I felt bad.
+
+      <BurningHot> So yesterday I secretly used your computer
+      to set your world to LAN so I could join in and get some.
+
+      <BurningHot>
+      Afterwards, I felt so powerful that I got a bit carried away, so sorry for
+      that too...'
+    - 'people''s stuff!
+
+      <BurningHot> I''m sorry, the real reason why I stole
+      your diamonds was because I''ve never had any before. :(
+
+      <BurningHot>
+      And whenever I saw you holding them, I felt bad.
+
+      <BurningHot> So yesterday
+      I secretly used your computer to set your world to LAN so I could join in and
+      get some.
+
+      <BurningHot> Afterwards, I felt so powerful that I got a bit
+      carried away, so sorry for that too...
+
+      <FreezingCold> ...'
+    - '<BurningHot> I''m sorry, the real reason why I stole your diamonds was because
+      I''ve never had any before. :(
+
+      <BurningHot> And whenever I saw you holding
+      them, I felt bad.
+
+      <BurningHot> So yesterday I secretly used your computer
+      to set your world to LAN so I could join in and get some.
+
+      <BurningHot>
+      Afterwards, I felt so powerful that I got a bit carried away, so sorry for
+      that too...
+
+      <FreezingCold> ...
+
+      <FreezingCold> Okay, but only
+      if you do my chores today!'
+    - 'diamonds was because I''ve never had any before. :(
+
+      <BurningHot> And
+      whenever I saw you holding them, I felt bad.
+
+      <BurningHot> So yesterday
+      I secretly used your computer to set your world to LAN so I could join in and
+      get some.
+
+      <BurningHot> Afterwards, I felt so powerful that I got a bit
+      carried away, so sorry for that too...
+
+      <FreezingCold> ...
+
+      <FreezingCold>
+      Okay, but only if you do my chores today!
+
+      <BurningHot> Fair enough...
+      :('
+    - 'bad.
+
+      <BurningHot> So yesterday I secretly used your computer to set
+      your world to LAN so I could join in and get some.
+
+      <BurningHot> Afterwards,
+      I felt so powerful that I got a bit carried away, so sorry for that too...
+
+      <FreezingCold>
+      ...
+
+      <FreezingCold> Okay, but only if you do my chores today!
+
+      <BurningHot>
+      Fair enough... :(
+
+      <FreezingCold> Also, if you wanted to know how to
+      get diamonds, all you had to do was ask me!'
+    - 'set your world to LAN so I could join in and get some.
+
+      <BurningHot>
+      Afterwards, I felt so powerful that I got a bit carried away, so sorry for
+      that too...
+
+      <FreezingCold> ...
+
+      <FreezingCold> Okay, but only
+      if you do my chores today!
+
+      <BurningHot> Fair enough... :(
+
+      <FreezingCold>
+      Also, if you wanted to know how to get diamonds, all you had to do was ask
+      me!
+
+      <FreezingCold> I''m heading to where you spawned. I''ll help you
+      survive and teach you the best techniques to find them.'
+    - 'carried away, so sorry for that too...
+
+      <FreezingCold> ...
+
+      <FreezingCold>
+      Okay, but only if you do my chores today!
+
+      <BurningHot> Fair enough...
+      :(
+
+      <FreezingCold> Also, if you wanted to know how to get diamonds, all
+      you had to do was ask me!
+
+      <FreezingCold> I''m heading to where you spawned.
+      I''ll help you survive and teach you the best techniques to find them.
+
+      <BurningHot>
+      REALLY?! THANK YOU, I LOVE YOU, BRO! :D'
+    - '<FreezingCold> ...
+
+      <FreezingCold> Okay, but only if you do my chores
+      today!
+
+      <BurningHot> Fair enough... :(
+
+      <FreezingCold> Also, if
+      you wanted to know how to get diamonds, all you had to do was ask me!
+
+      <FreezingCold>
+      I''m heading to where you spawned. I''ll help you survive and teach you the
+      best techniques to find them.
+
+      <BurningHot> REALLY?! THANK YOU, I LOVE
+      YOU, BRO! :D
+
+      <FreezingCold> No problem! :D'
+    - '<FreezingCold> Also, if you wanted to know how to get diamonds, all you had
+      to do was ask me!
+
+      <FreezingCold> I''m heading to where you spawned.
+      I''ll help you survive and teach you the best techniques to find them.
+
+      <BurningHot>
+      REALLY?! THANK YOU, I LOVE YOU, BRO! :D
+
+      <FreezingCold> No problem! :D
+
+      <System>
+      And so, they lived happily ever after, having many adventures as they explored
+      the immense world of Survival Game.'
+    - 'diamonds, all you had to do was ask me!
+
+      <FreezingCold> I''m heading
+      to where you spawned. I''ll help you survive and teach you the best techniques
+      to find them.
+
+      <BurningHot> REALLY?! THANK YOU, I LOVE YOU, BRO! :D
+
+      <FreezingCold>
+      No problem! :D
+
+      <System> And so, they lived happily ever after, having
+      many adventures as they explored the immense world of Survival Game.
+
+      <System>
+      THE END'
 --- !u!4 &529223692
 Transform:
   m_ObjectHideFlags: 0
@@ -594,13 +917,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 529223690}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.02915001, y: 0.51666665, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1974419157}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &601351197
 GameObject:
@@ -3012,6 +3335,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 578f8f1d124404e4da553070d3274cee, type: 3}
+--- !u!1 &1213151962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1213151963}
+  m_Layer: 0
+  m_Name: Characters
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1213151963
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213151962}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1553325538}
+  - {fileID: 2009496246}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1378635327
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3073,6 +3429,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 7280896505500536943, guid: b0c2d7d55176fc74b82e84f58d8fe2e8, type: 3}
   m_PrefabInstance: {fileID: 1378635327}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1553325538 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3490850069174767740, guid: 23f1ed26dd9c87e4cad89b84ac997430, type: 3}
+  m_PrefabInstance: {fileID: 207866390}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1654552375
 PrefabInstance:
@@ -3327,16 +3688,21 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7280896505500536943, guid: 3c49db7e50ea846478a3fd868f4d2c29, type: 3}
   m_PrefabInstance: {fileID: 1974419156}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &2009496246 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 872998094263448630, guid: a418cd667187c744382eca2a2ce202e2, type: 3}
+  m_PrefabInstance: {fileID: 2043389688}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2043389688
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1213151963}
     m_Modifications:
     - target: {fileID: 872998094263448630, guid: a418cd667187c744382eca2a2ce202e2, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 872998094263448630, guid: a418cd667187c744382eca2a2ce202e2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3356,15 +3722,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 872998094263448630, guid: a418cd667187c744382eca2a2ce202e2, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 872998094263448630, guid: a418cd667187c744382eca2a2ce202e2, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 872998094263448630, guid: a418cd667187c744382eca2a2ce202e2, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 872998094263448630, guid: a418cd667187c744382eca2a2ce202e2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
