@@ -528,6 +528,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 9, y: -5, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 1
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -9, y: -4, z: 0}
     second:
       serializedVersion: 2
@@ -672,19 +682,19 @@ Tilemap:
   m_TileAssetArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 9
+  - m_RefCount: 10
     m_Data: {fileID: 11400000, guid: eded37a0d2b1f294897c28d48d3b6b0e, type: 2}
   - m_RefCount: 23
     m_Data: {fileID: 11400000, guid: d858fcd59b5d6d44fbc5595efe3bb440, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 9
+  - m_RefCount: 10
     m_Data: {fileID: -854978872, guid: 0d4858a8c3e53d1479001d15cee45c76, type: 3}
   - m_RefCount: 23
     m_Data: {fileID: 792752810, guid: 0d4858a8c3e53d1479001d15cee45c76, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 32
+  - m_RefCount: 33
     m_Data:
       e00: 1
       e01: 0
@@ -705,7 +715,7 @@ Tilemap:
   m_TileColorArray:
   - m_RefCount: 0
     m_Data: {r: 5.5744e-41, g: 5.5744e-41, b: 5.5744e-41, a: 5.5744e-41}
-  - m_RefCount: 32
+  - m_RefCount: 33
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -757,6 +767,22 @@ CompositeCollider2D:
         Y: -50000000
       - X: 89999900
         Y: -50000000
+      - X: 89999900
+        Y: -50000041
+      - X: 89999959
+        Y: -50000100
+      - X: 100000041
+        Y: -50000100
+      - X: 100000100
+        Y: -50000041
+      - X: 100000100
+        Y: -39999959
+      - X: 100000041
+        Y: -39999900
+      - X: 89999959
+        Y: -39999900
+      - X: 89999900
+        Y: -39999959
       - X: 89999900
         Y: -40000000
       - X: -79999900
@@ -833,9 +859,8 @@ CompositeCollider2D:
         Y: -50000100
   m_CompositePaths:
     m_Paths:
-    - - {x: -9.00001, y: -4.9999747}
-      - {x: 8.99999, y: -4.999971}
-      - {x: 8.999961, y: -4}
+    - - {x: 9.999981, y: -5.0000043}
+      - {x: 9.999974, y: -3.99999}
       - {x: -8, y: -3.999961}
       - {x: -7.999961, y: 0}
       - {x: -1, y: -0.0000394}
@@ -843,6 +868,7 @@ CompositeCollider2D:
       - {x: 0, y: -0.99997073}
       - {x: -0.0000252, y: 1.00001}
       - {x: -9.00001, y: 0.9999748}
+      - {x: -8.999981, y: -5.0000043}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
 --- !u!50 &758724581
@@ -903,7 +929,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7280896505500536943, guid: 3c49db7e50ea846478a3fd868f4d2c29, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.4
+      value: 10.5
       objectReference: {fileID: 0}
     - target: {fileID: 7280896505500536943, guid: 3c49db7e50ea846478a3fd868f4d2c29, type: 3}
       propertyPath: m_LocalPosition.y
@@ -952,23 +978,26 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: _dialogue.sentences.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: _dialogue.sentences.Array.data[0]
-      value: 0
+      value: <FreezingCold> Today, I will finally make my diamonds tools!
       objectReference: {fileID: 0}
     - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: _dialogue.sentences.Array.data[1]
-      value: 1
+      value: '<FreezingCold> Today, I will finally make my diamonds tools!
+
+        <FreezingCold>
+        I just have to get the diamonds I gathered in my chest!'
       objectReference: {fileID: 0}
     - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: _dialogue.sentences.Array.data[2]
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7280896505500536942, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: m_Name
-      value: DialogueTrigger
+      value: DialogueTriggerBlock
       objectReference: {fileID: 0}
     - target: {fileID: 7280896505500536943, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: m_RootOrder
@@ -976,7 +1005,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7280896505500536943, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.5
+      value: -7
       objectReference: {fileID: 0}
     - target: {fileID: 7280896505500536943, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1830,6 +1859,7 @@ Transform:
   m_Children:
   - {fileID: 2061307313}
   - {fileID: 986748405}
+  - {fileID: 2001182839}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1961,6 +1991,111 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2001182838
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1437798989}
+    m_Modifications:
+    - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: _dialogue.sentences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: _dialogue.sentences.Array.data[0]
+      value: '<FreezingCold> Today, I will finally make my diamonds tools!
+
+        <FreezingCold>
+        I just have to get the diamonds I gathered in my chest!
+
+        <FreezingCold>
+        ...what?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: _dialogue.sentences.Array.data[1]
+      value: '<FreezingCold> Today, I will finally make my diamonds tools!
+
+        <FreezingCold>
+        I just have to get the diamonds I gathered in my chest!
+
+        <FreezingCold>
+        ...what?
+
+        <FreezingCold> WHERE ARE MY HARD EARNED DIAMONDS?! THEY
+        ARE ALL GONE!!!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: _dialogue.sentences.Array.data[2]
+      value: '<FreezingCold> Today, I will finally make my diamonds tools!
+
+        <FreezingCold>
+        I just have to get the diamonds I gathered in my chest!
+
+        <FreezingCold>
+        ...what?
+
+        <FreezingCold> WHERE ARE MY HARD EARNED DIAMONDS?! THEY
+        ARE ALL GONE!!!
+
+        <FreezingCold> I don''t understand, is this a bug?
+        I must investigate around, maybe I left them in another house.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536942, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: m_Name
+      value: DialogueTriggerBlock2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280896505500536943, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+--- !u!4 &2001182839 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7280896505500536943, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+  m_PrefabInstance: {fileID: 2001182838}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2043389688
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1974,11 +2109,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 872998094263448630, guid: a418cd667187c744382eca2a2ce202e2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 872998094263448630, guid: a418cd667187c744382eca2a2ce202e2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.33
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 872998094263448630, guid: a418cd667187c744382eca2a2ce202e2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2018,7 +2153,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2848954184741840584, guid: a418cd667187c744382eca2a2ce202e2, type: 3}
       propertyPath: _respawnPoint.y
-      value: -3.3
+      value: -3.33
       objectReference: {fileID: 0}
     - target: {fileID: 4927324696376995324, guid: a418cd667187c744382eca2a2ce202e2, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2031,6 +2166,14 @@ PrefabInstance:
     - target: {fileID: 6169045602194026997, guid: a418cd667187c744382eca2a2ce202e2, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6785294453298190156, guid: a418cd667187c744382eca2a2ce202e2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6785294453298190156, guid: a418cd667187c744382eca2a2ce202e2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.33
       objectReference: {fileID: 0}
     - target: {fileID: 8777114900758830463, guid: a418cd667187c744382eca2a2ce202e2, type: 3}
       propertyPath: m_IsActive
@@ -2055,6 +2198,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6978225812581964164, guid: 578f8f1d124404e4da553070d3274cee, type: 3}
+      propertyPath: m_text
+      value: Lorem Ipsum
+      objectReference: {fileID: 0}
     - target: {fileID: 6978225813717018663, guid: 578f8f1d124404e4da553070d3274cee, type: 3}
       propertyPath: m_Name
       value: Dialogue_Canvas
