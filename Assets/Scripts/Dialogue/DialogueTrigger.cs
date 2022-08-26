@@ -5,7 +5,7 @@ public class DialogueTrigger : MonoBehaviour
 
     [SerializeField] private Dialogue _dialogue;
     [Tooltip("Used to disable player movements")]
-    [SerializeField] private GameObject _player;
+    private GameObject _player;
     private string _playerLayerName = "Player";
 
     private void Start() {
@@ -21,6 +21,7 @@ public class DialogueTrigger : MonoBehaviour
         if (col.gameObject.layer == LayerMask.NameToLayer(_playerLayerName)){
             TriggerDialogue();
         }
+        
     }
 
 }

@@ -1,26 +1,28 @@
 using System;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class PlayerHealthMonitor : MonoBehaviour
+public class PlayerDeathManager : MonoBehaviour
 {
 
     private Animator _animator;
-    [SerializeField] private Stats _stats;
+    private Stats _stats;
 
     private void Awake() {
         _animator = GetComponent<Animator>();
+        _stats = GameObject.Find("Player").GetComponentInChildren<Stats>();
         _stats.OnEntityDeath += FadeToLevel;
     }
 
     private void FadeToLevel(object sender, EventArgs e){
         Time.timeScale = 0;
-        _animator.SetTrigger("FadeOut");
+        _animator.SetBool("isFadeOut", true);
     }
 
     public void OnFadeComplete(){
+        _stats.TeleportToSpawnPoint();
+        _stats.SetHealthToMax();
         Time.timeScale = 1;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        _animator.SetBool("isFadeOut", false);
     }
 
 }

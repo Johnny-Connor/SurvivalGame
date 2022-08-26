@@ -7,14 +7,14 @@ public class DialogueManager : MonoBehaviour
 {
 
     // Variables
-    [SerializeField] private Queue<string> _sentences;
+    private Queue<string> _sentences;
 
     // Components
     private PlayerMovements _playerMovements;
-    [SerializeField] private Animator _animator;
+    private Animator _animator;
 
     // UI
-    [SerializeField] private TMP_Text _sentencesText;
+    private TMP_Text _sentencesText;
 
     // Events
     public EventHandler OnDialogueStart;
@@ -27,6 +27,8 @@ public class DialogueManager : MonoBehaviour
 
     private void Start() {
         _playerMovements = GameObject.Find("Player").GetComponentInChildren<PlayerMovements>();
+        _animator = GameObject.Find("DialogueBox").GetComponent<Animator>();
+        _sentencesText = GameObject.Find("Dialogue_Text").GetComponent<TMP_Text>();
     }
 
     private void Update() {
