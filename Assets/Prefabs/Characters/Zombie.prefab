@@ -89,6 +89,7 @@ MonoBehaviour:
   _dmg: 0.5
   _spd: 2
   _range: 0.75
+  _respawnPoint: {x: 0, y: 0}
 --- !u!114 &3490850071144345115
 MonoBehaviour:
   m_ObjectHideFlags: 0

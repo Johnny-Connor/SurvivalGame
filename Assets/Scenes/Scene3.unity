@@ -298,25 +298,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6978225812581964164, guid: 578f8f1d124404e4da553070d3274cee, type: 3}
       propertyPath: m_text
-      value: '<FreezingCold> Today, I will finally make my diamonds tools!
-
-        <FreezingCold>
-        I just have to get the diamonds I gathered in my chest!
-
-        <FreezingCold>
-        ...what?
-
-        <FreezingCold> WHERE ARE MY HARD EARNED DIAMONDS?! THEY
-        ARE ALL GONE!!!
-
-        <FreezingCold> I don''t understand, is this a bug?
-        I must investigate around, maybe I left them in another house.
-
-        <FreezingCold>
-        I won''t make it if I don''t sprint.
-
-        <FreezingCold> My bridge is
-        gone too? How?!'
+      value: Lorem Ipsum.
       objectReference: {fileID: 0}
     - target: {fileID: 6978225813717018663, guid: 578f8f1d124404e4da553070d3274cee, type: 3}
       propertyPath: m_Name
@@ -1549,8 +1531,8 @@ PrefabInstance:
         <FreezingCold>
         I won''t make it if I don''t sprint.
 
-        <FreezingCold> My bridge is
-        gone too? How?!'
+        <FreezingCold> This bridge
+        is gone too? How?!'
       objectReference: {fileID: 0}
     - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: _dialogue.sentences.Array.data[1]
@@ -1748,7 +1730,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2848954184741840584, guid: a418cd667187c744382eca2a2ce202e2, type: 3}
       propertyPath: _respawnPoint.y
-      value: -3.33
+      value: -3.333
       objectReference: {fileID: 0}
     - target: {fileID: 4927324696376995324, guid: a418cd667187c744382eca2a2ce202e2, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1768,7 +1750,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6785294453298190156, guid: a418cd667187c744382eca2a2ce202e2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.33
+      value: -3.333
       objectReference: {fileID: 0}
     - target: {fileID: 8777114900758830463, guid: a418cd667187c744382eca2a2ce202e2, type: 3}
       propertyPath: m_IsActive
