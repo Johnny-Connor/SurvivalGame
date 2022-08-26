@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8046415526188023441}
   - component: {fileID: 1619000224554169677}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -326,7 +326,7 @@ GameObject:
   - component: {fileID: 1083143644596832823}
   - component: {fileID: 7903113680550111889}
   - component: {fileID: 3867300408536694041}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: AttackArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -867,7 +867,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4990900147469586309}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
