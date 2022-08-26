@@ -132,15 +132,164 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: _dialogue.sentences.Array.size
-      value: 2
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: _dialogue.sentences.Array.data[0]
-      value: testing
+      value: '<FreezingCold> It''s getting late, the zombies should appear at any
+        moment now.
+
+        <FreezingCold> Luckily, I still have this old sword
+        I forgot in my inventory.
+
+        <FreezingCold> It''s just a wood sword,
+        but that''s better than nothing!
+
+        <System> Press ''Mouse0'' (click)
+        to attack.
+
+        <FreezingCold> This is getting really dangerous.
+
+        <FreezingCold>
+        I should avoid these zombies.
+
+        <BurningHot> Looking for your diamonds?
+        Muahahahaha!'
       objectReference: {fileID: 0}
     - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: _dialogue.sentences.Array.data[1]
-      value: testing 2
+      value: 'at any moment now.
+
+        <FreezingCold> Luckily, I still have this
+        old sword I forgot in my inventory.
+
+        <FreezingCold> It''s just a
+        wood sword, but that''s better than nothing!
+
+        <System> Press ''Mouse0''
+        (click) to attack.
+
+        <FreezingCold> This is getting really dangerous.
+
+        <FreezingCold>
+        I should avoid these zombies.
+
+        <BurningHot> Looking for your diamonds?
+        Muahahahaha!
+
+        <FreezingCold> WHAT? ANOTHER PLAYER?!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: _dialogue.sentences.Array.data[2]
+      value: 'my inventory.
+
+        <FreezingCold> It''s just a wood sword, but
+        that''s better than nothing!
+
+        <System> Press ''Mouse0'' (click)
+        to attack.
+
+        <FreezingCold> This is getting really dangerous.
+
+        <FreezingCold>
+        I should avoid these zombies.
+
+        <BurningHot> Looking for your diamonds?
+        Muahahahaha!
+
+        <FreezingCold> WHAT? ANOTHER PLAYER?!
+
+        <FreezingCold>
+        THAT''S IMPOSSIBLE, THIS IS A SINGLEPLAYER WORLD!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: _dialogue.sentences.Array.data[3]
+      value: '<FreezingCold> It''s just a wood sword, but that''s better than nothing!
+
+        <System>
+        Press ''Mouse0'' (click) to attack.
+
+        <FreezingCold> This is getting
+        really dangerous.
+
+        <FreezingCold> I should avoid these zombies.
+
+        <BurningHot>
+        Looking for your diamonds? Muahahahaha!
+
+        <FreezingCold> WHAT? ANOTHER
+        PLAYER?!
+
+        <FreezingCold> THAT''S IMPOSSIBLE, THIS IS A SINGLEPLAYER
+        WORLD!
+
+        <BurningHot> Not just another player, it''s me, bro!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: _dialogue.sentences.Array.data[4]
+      value: '<System> Press ''Mouse0'' (click) to attack.
+
+        <FreezingCold>
+        This is getting really dangerous.
+
+        <FreezingCold> I should avoid
+        these zombies.
+
+        <BurningHot> Looking for your diamonds? Muahahahaha!
+
+        <FreezingCold>
+        WHAT? ANOTHER PLAYER?!
+
+        <FreezingCold> THAT''S IMPOSSIBLE, THIS IS
+        A SINGLEPLAYER WORLD!
+
+        <BurningHot> Not just another player, it''s
+        me, bro!
+
+        <BurningHot> And if you don''t do my shores irl from now
+        on, I''ll conquer your world! >:D'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: _dialogue.sentences.Array.data[5]
+      value: '<FreezingCold> I should avoid these zombies.
+
+        <BurningHot>
+        Looking for your diamonds? Muahahahaha!
+
+        <FreezingCold> WHAT? ANOTHER
+        PLAYER?!
+
+        <FreezingCold> THAT''S IMPOSSIBLE, THIS IS A SINGLEPLAYER
+        WORLD!
+
+        <BurningHot> Not just another player, it''s me, bro!
+
+        <BurningHot>
+        And if you don''t do my shores irl from now on, I''ll conquer your world!
+        >:D
+
+        <FreezingCold> That''s nonsense! Give me my diamonds back!!!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: _dialogue.sentences.Array.data[6]
+      value: '<BurningHot> Looking for your diamonds? Muahahahaha!
+
+        <FreezingCold>
+        WHAT? ANOTHER PLAYER?!
+
+        <FreezingCold> THAT''S IMPOSSIBLE, THIS
+        IS A SINGLEPLAYER WORLD!
+
+        <BurningHot> Not just another player,
+        it''s me, bro!
+
+        <BurningHot> And if you don''t do my shores irl
+        from now on, I''ll conquer your world! >:D
+
+        <FreezingCold> That''s
+        nonsense! Give me my diamonds back!!!
+
+        <BurningHot> Come get them!'
       objectReference: {fileID: 0}
     - target: {fileID: 7280896505500536942, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: m_Name
@@ -252,11 +401,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boss
       objectReference: {fileID: 0}
+    - target: {fileID: 3490850071144345114, guid: 23f1ed26dd9c87e4cad89b84ac997430, type: 3}
+      propertyPath: _respawnPoint.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3490850071144345114, guid: 23f1ed26dd9c87e4cad89b84ac997430, type: 3}
+      propertyPath: _respawnPoint.y
+      value: -3.333
+      objectReference: {fileID: 0}
     - target: {fileID: 4654502384399327309, guid: 23f1ed26dd9c87e4cad89b84ac997430, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4654502384399327309, guid: 23f1ed26dd9c87e4cad89b84ac997430, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6612775888678192953, guid: 23f1ed26dd9c87e4cad89b84ac997430, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6612775888678192953, guid: 23f1ed26dd9c87e4cad89b84ac997430, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
@@ -2696,6 +2861,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6978225812581964164, guid: 578f8f1d124404e4da553070d3274cee, type: 3}
+      propertyPath: m_text
+      value: Lorem Ipsum.
+      objectReference: {fileID: 0}
     - target: {fileID: 6978225813717018663, guid: 578f8f1d124404e4da553070d3274cee, type: 3}
       propertyPath: m_Name
       value: Dialogue_Canvas
