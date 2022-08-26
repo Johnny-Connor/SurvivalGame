@@ -1388,7 +1388,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7280896505500536938, guid: 3c49db7e50ea846478a3fd868f4d2c29, type: 3}
       propertyPath: _teleportToSceneIndex
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7280896505500536942, guid: 3c49db7e50ea846478a3fd868f4d2c29, type: 3}
       propertyPath: m_Name

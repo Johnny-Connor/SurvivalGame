@@ -12,10 +12,13 @@ public class Teleporter : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D col) {
-
         if (col.gameObject.layer == LayerMask.NameToLayer("Player")){
             FadeToLevel();
         }
+    }
+
+    public void TriggerTeleport(){
+        FadeToLevel();
     }
 
     private void FadeToLevel(){

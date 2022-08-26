@@ -4,13 +4,7 @@ public class DialogueTrigger : MonoBehaviour
 {
 
     [SerializeField] private Dialogue _dialogue;
-    [Tooltip("Used to disable player movements")]
-    private GameObject _player;
     private string _playerLayerName = "Player";
-
-    private void Start() {
-        _player = GameObject.Find("Player");
-    }
 
     private void OnTriggerEnter2D(Collider2D col) {
 
