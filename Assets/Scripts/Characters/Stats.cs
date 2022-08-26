@@ -28,6 +28,11 @@ public class Stats : MonoBehaviour
         _health = _maxHealth;
     }
 
+    public void Kill(){
+        _health = 0;
+        OnEntityDeath?.Invoke(this, EventArgs.Empty);
+    }
+
     public void TeleportToSpawnPoint(){
         transform.position = _respawnPoint;
     }

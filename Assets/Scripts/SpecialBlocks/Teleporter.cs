@@ -6,14 +6,13 @@ public class Teleporter : MonoBehaviour
 
     [SerializeField] private int _teleportToSceneIndex;
     private Animator _animator;
-    private string _playerLayerName = "Player";
 
     private void Awake() {
         _animator = GetComponent<Animator>();
     }
 
     private void OnTriggerEnter2D(Collider2D col) {
-        if (col.gameObject.layer == LayerMask.NameToLayer(_playerLayerName)){
+        if (col.gameObject.layer == LayerMask.NameToLayer("Player")){
             FadeToLevel();
         }
     }

@@ -20,6 +20,8 @@ public class DialogueTrigger : MonoBehaviour
 
         if (col.gameObject.layer == LayerMask.NameToLayer(_playerLayerName)){
             TriggerDialogue();
+            // Destroying so it won't play again.
+            Destroy(gameObject);
         }
         
     }

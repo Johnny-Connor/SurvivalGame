@@ -2012,6 +2012,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2848954184741840584, guid: a418cd667187c744382eca2a2ce202e2, type: 3}
+      propertyPath: _respawnPoint.x
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2848954184741840584, guid: a418cd667187c744382eca2a2ce202e2, type: 3}
+      propertyPath: _respawnPoint.y
+      value: -3.3
+      objectReference: {fileID: 0}
     - target: {fileID: 4927324696376995324, guid: a418cd667187c744382eca2a2ce202e2, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
