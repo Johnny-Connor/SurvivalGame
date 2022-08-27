@@ -3232,23 +3232,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6978225812581964164, guid: 578f8f1d124404e4da553070d3274cee, type: 3}
       propertyPath: m_text
-      value: '<FreezingCold> Also, if you wanted to know how to get diamonds, all
-        you had to do was ask me!
-
-        <FreezingCold> I''m heading to where you
-        spawned. I''ll help you survive and teach you the best techniques to find
-        them.
-
-        <BurningHot> REALLY?! THANK YOU, I LOVE YOU, BRO! :D
-
-        <FreezingCold>
-        No problem! :D
-
-        <System> And so, they lived happily ever after, having
-        many adventures as they explored the immense world of Survival Game.
-
-        <System>
-        THE END'
+      value: Lorem Ipsum.
       objectReference: {fileID: 0}
     - target: {fileID: 6978225813717018663, guid: 578f8f1d124404e4da553070d3274cee, type: 3}
       propertyPath: m_Name

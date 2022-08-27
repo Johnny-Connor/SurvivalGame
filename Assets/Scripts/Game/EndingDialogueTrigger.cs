@@ -29,6 +29,7 @@ public class EndingDialogueTrigger : MonoBehaviour
 
     private void EndGame(object sender, EventArgs e){
         if (_dialogueIndex == 0){
+            PlayerPrefs.SetInt("isInGame", 0);
             _teleporter.TriggerTeleport();
         }
         else{

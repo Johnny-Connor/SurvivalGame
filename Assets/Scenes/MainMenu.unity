@@ -4932,7 +4932,7 @@ GameObject:
   - component: {fileID: 1960960831}
   - component: {fileID: 1960960832}
   m_Layer: 0
-  m_Name: BGM_Player
+  m_Name: MainMenuBgmPlayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
