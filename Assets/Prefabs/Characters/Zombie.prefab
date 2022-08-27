@@ -86,7 +86,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _health: 100
-  _dmg: 0.5
+  _dmg: 1
   _spd: 2
   _range: 0.75
   _respawnPoint: {x: 0, y: 0}

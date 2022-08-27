@@ -1257,7 +1257,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3490850071144345114, guid: f05c20740a0cfa540ac010fece24b96b, type: 3}
       propertyPath: _dmg
-      value: 2.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3490850071144345114, guid: f05c20740a0cfa540ac010fece24b96b, type: 3}
       propertyPath: _respawnPoint.x
