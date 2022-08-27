@@ -1909,7 +1909,7 @@ MonoBehaviour:
     Sword Swing - knife slash 2 by beerbelly38
 
 
-    Click
+    Button
     - Video Game Menu Sounds Menu Selection Change O Sound Effect by FesliyanStudios'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fbeaf21f246acf14bb0f00e8435bfce8, type: 2}
