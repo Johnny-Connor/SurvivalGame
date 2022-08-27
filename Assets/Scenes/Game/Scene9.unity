@@ -204,50 +204,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: _dialogue.sentences.Array.data[3]
-      value: '<FreezingCold> It''s just a wood sword, but that''s better than nothing!
+      value: 'that''s better than nothing!
 
-        <System>
-        Press ''Mouse0'' (click) to attack.
+        <System> Press ''Mouse0'' (click)
+        to attack.
 
-        <FreezingCold> This is getting
-        really dangerous.
+        <FreezingCold> This is getting really dangerous.
 
-        <FreezingCold> I should avoid these zombies.
+        <FreezingCold>
+        I should avoid these zombies.
 
-        <BurningHot>
-        Looking for your diamonds? Muahahahaha!
+        <BurningHot> Looking for your diamonds?
+        Muahahahaha!
 
-        <FreezingCold> WHAT? ANOTHER
-        PLAYER?!
+        <FreezingCold> WHAT? ANOTHER PLAYER?!
 
-        <FreezingCold> THAT''S IMPOSSIBLE, THIS IS A SINGLEPLAYER
-        WORLD!
+        <FreezingCold>
+        THAT''S IMPOSSIBLE, THIS IS A SINGLEPLAYER WORLD!
 
-        <BurningHot> Not just another player, it''s me, bro!'
+        <BurningHot> Not
+        just another player, it''s me, bro!'
       objectReference: {fileID: 0}
     - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: _dialogue.sentences.Array.data[4]
-      value: '<System> Press ''Mouse0'' (click) to attack.
+      value: '<FreezingCold> This is getting really dangerous.
 
         <FreezingCold>
-        This is getting really dangerous.
+        I should avoid these zombies.
 
-        <FreezingCold> I should avoid
-        these zombies.
+        <BurningHot> Looking for your diamonds?
+        Muahahahaha!
 
-        <BurningHot> Looking for your diamonds? Muahahahaha!
+        <FreezingCold> WHAT? ANOTHER PLAYER?!
 
         <FreezingCold>
-        WHAT? ANOTHER PLAYER?!
+        THAT''S IMPOSSIBLE, THIS IS A SINGLEPLAYER WORLD!
 
-        <FreezingCold> THAT''S IMPOSSIBLE, THIS IS
-        A SINGLEPLAYER WORLD!
+        <BurningHot> Not
+        just another player, it''s me, bro!
 
-        <BurningHot> Not just another player, it''s
-        me, bro!
-
-        <BurningHot> And if you don''t do my chores irl from now
-        on, I''ll conquer your world! >:D'
+        <BurningHot> And if you don''t
+        do my chores irl from now on, I''ll conquer your world! >:D'
       objectReference: {fileID: 0}
     - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: _dialogue.sentences.Array.data[5]
@@ -584,24 +581,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _dialogue:
     sentences:
-    - '<FreezingCold> WHAT? ANOTHER PLAYER?!
+    - 'Muahahahaha!
 
-      <FreezingCold> THAT''S IMPOSSIBLE,
-      THIS IS A SINGLEPLAYER WORLD!
+      <FreezingCold> WHAT? ANOTHER PLAYER?!
 
-      <BurningHot> Not just another player,
-      it''s me, bro!
+      <FreezingCold>
+      THAT''S IMPOSSIBLE, THIS IS A SINGLEPLAYER WORLD!
 
-      <BurningHot> And if you don''t do my shores irl from
-      now on, I''ll conquer your world! >:D
+      <BurningHot> Not just
+      another player, it''s me, bro!
 
-      <FreezingCold> That''s nonsense!
-      Give me my diamonds back!!!
+      <BurningHot> And if you don''t do my
+      shores irl from now on, I''ll conquer your world! >:D
 
-      <BurningHot> Come get them!
+      <FreezingCold>
+      That''s nonsense! Give me my diamonds back!!!
 
-      <BurningHot>
-      NOOOOOOO!!! HOW DID I LOSE?!'
+      <BurningHot> Come get
+      them!
+
+      <BurningHot> NOOOOOOO!!! HOW DID I LOSE?!'
     - '<FreezingCold> THAT''S IMPOSSIBLE, THIS IS A SINGLEPLAYER WORLD!
 
       <BurningHot>
@@ -620,26 +619,24 @@ MonoBehaviour:
 
       <BurningHot>
       I WAS USING THE BEST SET IN THE GAME!'
-    - 'SINGLEPLAYER WORLD!
+    - '<BurningHot> Not just another player, it''s me, bro!
 
-      <BurningHot> Not just another player, it''s me,
-      bro!
-
-      <BurningHot> And if you don''t do my shores irl from now on, I''ll
-      conquer your world! >:D
-
-      <FreezingCold> That''s nonsense! Give me my
-      diamonds back!!!
-
-      <BurningHot> Come get them!
-
-      <BurningHot> NOOOOOOO!!!
-      HOW DID I LOSE?!
-
-      <BurningHot> I WAS USING THE BEST SET IN THE GAME!
+      <BurningHot> And
+      if you don''t do my shores irl from now on, I''ll conquer your world! >:D
 
       <FreezingCold>
-      I''m an experienced player, you know?'
+      That''s nonsense! Give me my diamonds back!!!
+
+      <BurningHot> Come get
+      them!
+
+      <BurningHot> NOOOOOOO!!! HOW DID I LOSE?!
+
+      <BurningHot>
+      I WAS USING THE BEST SET IN THE GAME!
+
+      <FreezingCold> I''m an experienced
+      player, you know?'
     - '<BurningHot> And if you don''t do my shores irl from now on, I''ll conquer
       your world! >:D
 
@@ -694,13 +691,12 @@ MonoBehaviour:
 
       <FreezingCold> That''s what
       you get for stealing other people''s stuff!'
-    - '<BurningHot> I WAS USING THE BEST SET IN THE GAME!
+    - 'GAME!
 
-      <FreezingCold> I''m
-      an experienced player, you know?
+      <FreezingCold> I''m an experienced player, you know?
 
-      <BurningHot> I haven''t set my spawn
-      point yet, so I spawned really far away from your base!
+      <BurningHot>
+      I haven''t set my spawn point yet, so I spawned really far away from your base!
 
       <BurningHot>
       And it''s night time! There are so many zombies over here!
@@ -711,17 +707,19 @@ MonoBehaviour:
       <BurningHot>
       I''m sorry, the real reason why I stole your diamonds was because I''ve never
       had any before. :('
-    - '<BurningHot> I haven''t set my spawn point yet, so I spawned really far away
-      from your base!
+    - 'know?
 
-      <BurningHot> And it''s night time! There are so many
-      zombies over here!
+      <BurningHot> I haven''t set my spawn point yet, so I spawned
+      really far away from your base!
 
-      <FreezingCold> That''s what you get for stealing
-      other people''s stuff!
+      <BurningHot> And it''s night time! There
+      are so many zombies over here!
 
-      <BurningHot> I''m sorry, the real reason why
-      I stole your diamonds was because I''ve never had any before. :(
+      <FreezingCold> That''s what you get for
+      stealing other people''s stuff!
+
+      <BurningHot> I''m sorry, the real reason
+      why I stole your diamonds was because I''ve never had any before. :(
 
       <BurningHot>
       And whenever I saw you holding them, I felt bad.'
@@ -739,25 +737,10 @@ MonoBehaviour:
 
       <BurningHot> So yesterday I secretly used your computer
       to set your world to LAN so I could join in and get some.'
-    - '<FreezingCold> That''s what you get for stealing other people''s stuff!
+    - 'stealing other people''s stuff!
 
-      <BurningHot>
-      I''m sorry, the real reason why I stole your diamonds was because I''ve never
-      had any before. :(
-
-      <BurningHot> And whenever I saw you holding them,
-      I felt bad.
-
-      <BurningHot> So yesterday I secretly used your computer
-      to set your world to LAN so I could join in and get some.
-
-      <BurningHot>
-      Afterwards, I felt so powerful that I got a bit carried away, so sorry for
-      that too...'
-    - 'people''s stuff!
-
-      <BurningHot> I''m sorry, the real reason why I stole
-      your diamonds was because I''ve never had any before. :(
+      <BurningHot> I''m sorry, the real reason
+      why I stole your diamonds was because I''ve never had any before. :(
 
       <BurningHot>
       And whenever I saw you holding them, I felt bad.
@@ -767,9 +750,7 @@ MonoBehaviour:
       get some.
 
       <BurningHot> Afterwards, I felt so powerful that I got a bit
-      carried away, so sorry for that too...
-
-      <FreezingCold> ...'
+      carried away, so sorry for that too...'
     - '<BurningHot> I''m sorry, the real reason why I stole your diamonds was because
       I''ve never had any before. :(
 
@@ -783,21 +764,31 @@ MonoBehaviour:
       Afterwards, I felt so powerful that I got a bit carried away, so sorry for
       that too...
 
+      <FreezingCold> ...'
+    - 'any before. :(
+
+      <BurningHot> And whenever I saw you holding them, I
+      felt bad.
+
+      <BurningHot> So yesterday I secretly used your computer to
+      set your world to LAN so I could join in and get some.
+
+      <BurningHot>
+      Afterwards, I felt so powerful that I got a bit carried away, so sorry for
+      that too...
+
       <FreezingCold> ...
 
       <FreezingCold> Okay, but only
       if you do my chores today!'
-    - 'diamonds was because I''ve never had any before. :(
+    - '<BurningHot> And whenever I saw you holding them, I felt bad.
 
-      <BurningHot> And
-      whenever I saw you holding them, I felt bad.
+      <BurningHot>
+      So yesterday I secretly used your computer to set your world to LAN so I could
+      join in and get some.
 
-      <BurningHot> So yesterday
-      I secretly used your computer to set your world to LAN so I could join in and
-      get some.
-
-      <BurningHot> Afterwards, I felt so powerful that I got a bit
-      carried away, so sorry for that too...
+      <BurningHot> Afterwards, I felt so powerful that
+      I got a bit carried away, so sorry for that too...
 
       <FreezingCold> ...
 
@@ -806,13 +797,11 @@ MonoBehaviour:
 
       <BurningHot> Fair enough...
       :('
-    - 'bad.
+    - '<BurningHot> So yesterday I secretly used your computer to set your world
+      to LAN so I could join in and get some.
 
-      <BurningHot> So yesterday I secretly used your computer to set
-      your world to LAN so I could join in and get some.
-
-      <BurningHot> Afterwards,
-      I felt so powerful that I got a bit carried away, so sorry for that too...
+      <BurningHot> Afterwards, I felt
+      so powerful that I got a bit carried away, so sorry for that too...
 
       <FreezingCold>
       ...
@@ -824,16 +813,13 @@ MonoBehaviour:
 
       <FreezingCold> Also, if you wanted to know how to
       get diamonds, all you had to do was ask me!'
-    - 'set your world to LAN so I could join in and get some.
-
-      <BurningHot>
-      Afterwards, I felt so powerful that I got a bit carried away, so sorry for
-      that too...
+    - '<BurningHot> Afterwards, I felt so powerful that I got a bit carried away,
+      so sorry for that too...
 
       <FreezingCold> ...
 
-      <FreezingCold> Okay, but only
-      if you do my chores today!
+      <FreezingCold> Okay,
+      but only if you do my chores today!
 
       <BurningHot> Fair enough... :(
 
@@ -879,6 +865,23 @@ MonoBehaviour:
       YOU, BRO! :D
 
       <FreezingCold> No problem! :D'
+    - '<BurningHot> Fair enough... :(
+
+      <FreezingCold> Also, if you wanted to
+      know how to get diamonds, all you had to do was ask me!
+
+      <FreezingCold>
+      I''m heading to where you spawned. I''ll help you survive and teach you the
+      best techniques to find them.
+
+      <BurningHot> REALLY?! THANK YOU, I LOVE
+      YOU, BRO! :D
+
+      <FreezingCold> No problem! :D
+
+      <System> And so, they
+      lived happily ever after, having many adventures as they explored the immense
+      world of Survival Game.'
     - '<FreezingCold> Also, if you wanted to know how to get diamonds, all you had
       to do was ask me!
 
@@ -892,23 +895,9 @@ MonoBehaviour:
 
       <System>
       And so, they lived happily ever after, having many adventures as they explored
-      the immense world of Survival Game.'
-    - 'diamonds, all you had to do was ask me!
+      the immense world of Survival Game.
 
-      <FreezingCold> I''m heading
-      to where you spawned. I''ll help you survive and teach you the best techniques
-      to find them.
-
-      <BurningHot> REALLY?! THANK YOU, I LOVE YOU, BRO! :D
-
-      <FreezingCold>
-      No problem! :D
-
-      <System> And so, they lived happily ever after, having
-      many adventures as they explored the immense world of Survival Game.
-
-      <System>
-      THE END'
+      <System> THE END'
 --- !u!4 &529223692
 Transform:
   m_ObjectHideFlags: 0
@@ -923,7 +912,7 @@ Transform:
   m_Children:
   - {fileID: 1974419157}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &601351197
 GameObject:
@@ -971,7 +960,7 @@ Transform:
   - {fileID: 1014960606}
   - {fileID: 1065666056}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &758724576
 GameObject:
@@ -3243,7 +3232,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6978225812581964164, guid: 578f8f1d124404e4da553070d3274cee, type: 3}
       propertyPath: m_text
-      value: Lorem Ipsum.
+      value: '<FreezingCold> Also, if you wanted to know how to get diamonds, all
+        you had to do was ask me!
+
+        <FreezingCold> I''m heading to where you
+        spawned. I''ll help you survive and teach you the best techniques to find
+        them.
+
+        <BurningHot> REALLY?! THANK YOU, I LOVE YOU, BRO! :D
+
+        <FreezingCold>
+        No problem! :D
+
+        <System> And so, they lived happily ever after, having
+        many adventures as they explored the immense world of Survival Game.
+
+        <System>
+        THE END'
       objectReference: {fileID: 0}
     - target: {fileID: 6978225813717018663, guid: 578f8f1d124404e4da553070d3274cee, type: 3}
       propertyPath: m_Name
@@ -3561,7 +3566,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1972057983
 PrefabInstance:

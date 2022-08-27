@@ -1508,7 +1508,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: _dialogue.sentences.Array.data[0]
-      value: 'my chest!
+      value: 'horizontally.
 
         <FreezingCold> ...what?
 
@@ -1531,27 +1531,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: _dialogue.sentences.Array.data[1]
-      value: 'I just have to get the diamonds I gathered in my chest!
+      value: 'my chest!
+
+        <FreezingCold> ...what?
 
         <FreezingCold>
-        ...what?
+        WHERE ARE MY HARD EARNED DIAMONDS?! THEY ARE ALL GONE!!!
 
-        <FreezingCold> WHERE ARE MY HARD EARNED DIAMONDS?! THEY
-        ARE ALL GONE!!!
+        <FreezingCold>
+        I don''t understand, is this a bug? I must investigate around, maybe I left
+        them in another house.
 
-        <FreezingCold> I don''t understand, is this a bug?
-        I must investigate around, maybe I left them in another house.
+        <System> Press ''Space'' to jump.
 
-        <System>
-        Press ''Space'' to jump.
+        <FreezingCold>
+        I won''t make it if I don''t sprint.
 
-        <FreezingCold> I won''t make it if I don''t
+        <System> Press ''LShift'' to
         sprint.
 
-        <System> Press ''LShift'' to sprint.
-
-        <FreezingCold>
-        This bridge is gone too? How?!'
+        <FreezingCold> This bridge is gone too? How?!'
       objectReference: {fileID: 0}
     - target: {fileID: 7280896505500536942, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: m_Name

@@ -2128,6 +2128,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: _dialogue.sentences.Array.data[2]
+      value: 'them in another house.
+
+        <System> Press ''Space'' to jump.
+
+        <FreezingCold>
+        I won''t make it if I don''t sprint.
+
+        <System> Press ''LShift'' to
+        sprint.
+
+        <FreezingCold> This bridge is gone too? How?!
+
+        <FreezingCold>
+        It''s getting late, the zombies should appear at any moment now.
+
+        <FreezingCold>
+        Luckily, I still have this old sword I forgot in my inventory.
+
+        <FreezingCold>
+        It''s a just wood sword, but that''s better than nothing!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: _dialogue.sentences.Array.data[3]
       value: '<System> Press ''Space'' to jump.
 
         <FreezingCold> I won''t
@@ -2145,29 +2168,10 @@ PrefabInstance:
         I still have this old sword I forgot in my inventory.
 
         <FreezingCold>
-        It''s a just wood sword, but that''s better than nothing!'
-      objectReference: {fileID: 0}
-    - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
-      propertyPath: _dialogue.sentences.Array.data[3]
-      value: '<FreezingCold> I won''t make it if I don''t sprint.
+        It''s a just wood sword, but that''s better than nothing!
 
         <System>
-        Press ''LShift'' to sprint.
-
-        <FreezingCold> This bridge is gone too?
-        How?!
-
-        <FreezingCold> It''s getting late, the zombies should appear
-        at any moment now.
-
-        <FreezingCold> Luckily, I still have this old
-        sword I forgot in my inventory.
-
-        <FreezingCold> It''s a just wood
-        sword, but that''s better than nothing!
-
-        <System> Press ''Mouse0''
-        (click) to attack.'
+        Press ''Mouse0'' (click) to attack.'
       objectReference: {fileID: 0}
     - target: {fileID: 7280896505500536942, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: m_Name

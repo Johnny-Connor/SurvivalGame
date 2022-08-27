@@ -339,18 +339,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: _dialogue.sentences.Array.data[0]
-      value: '<FreezingCold> Today, I will finally make my diamonds tools!
+      value: 'my diamonds tools!
 
-        <FreezingCold>
-        I just have to get the diamonds I gathered in my chest!
+        <FreezingCold> I just have to get the diamonds
+        I gathered in my chest!
 
-        <System>
-        Use ''A'' and ''D'' keys to move horizontally.
+        <System> Use ''A'' and ''D'' keys to move
+        horizontally.
 
         <FreezingCold> ...what?
 
-        <FreezingCold>
-        WHERE ARE MY HARD EARNED DIAMONDS?! THEY ARE ALL GONE!!!
+        <FreezingCold> WHERE
+        ARE MY HARD EARNED DIAMONDS?! THEY ARE ALL GONE!!!
 
         <FreezingCold>
         I don''t understand, is this a bug? I must investigate around, maybe I left
@@ -360,18 +360,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: _dialogue.sentences.Array.data[1]
-      value: '<FreezingCold> Today, I will finally make my diamonds tools!
+      value: 'my diamonds tools!
 
-        <FreezingCold>
-        I just have to get the diamonds I gathered in my chest!
+        <FreezingCold> I just have to get the diamonds
+        I gathered in my chest!
 
-        <System>
-        Use ''A'' and ''D'' keys to move horizontally.
+        <System> Use ''A'' and ''D'' keys to move
+        horizontally.
 
         <FreezingCold> ...what?
 
-        <FreezingCold>
-        WHERE ARE MY HARD EARNED DIAMONDS?! THEY ARE ALL GONE!!!
+        <FreezingCold> WHERE
+        ARE MY HARD EARNED DIAMONDS?! THEY ARE ALL GONE!!!
 
         <FreezingCold>
         I don''t understand, is this a bug? I must investigate around, maybe I left
@@ -1228,6 +1228,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6978225812581964164, guid: 578f8f1d124404e4da553070d3274cee, type: 3}
+      propertyPath: m_text
+      value: Lorem Ipsum.
+      objectReference: {fileID: 0}
     - target: {fileID: 6978225813717018663, guid: 578f8f1d124404e4da553070d3274cee, type: 3}
       propertyPath: m_Name
       value: Dialogue_Canvas

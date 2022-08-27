@@ -2716,6 +2716,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
       propertyPath: _dialogue.sentences.Array.data[0]
+      value: 'sprint.
+
+        <System> Press ''LShift'' to sprint.
+
+        <FreezingCold>
+        This bridge is gone too? How?!
+
+        <FreezingCold> It''s getting late,
+        the zombies should appear at any moment now.
+
+        <FreezingCold> Luckily,
+        I still have this old sword I forgot in my inventory.
+
+        <FreezingCold>
+        It''s just a wood sword, but that''s better than nothing!
+
+        <System>
+        Press ''Mouse0'' (click) to attack.
+
+        <FreezingCold> This is getting
+        really dangerous.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
+      propertyPath: _dialogue.sentences.Array.data[1]
       value: '<System> Press ''LShift'' to sprint.
 
         <FreezingCold> This bridge
@@ -2734,26 +2758,7 @@ PrefabInstance:
         ''Mouse0'' (click) to attack.
 
         <FreezingCold> This is getting really
-        dangerous.'
-      objectReference: {fileID: 0}
-    - target: {fileID: 2327375824682088957, guid: a27642c366da5c74db6eb163fdd2791b, type: 3}
-      propertyPath: _dialogue.sentences.Array.data[1]
-      value: '<FreezingCold> This bridge is gone too? How?!
-
-        <FreezingCold>
-        It''s getting late, the zombies should appear at any moment now.
-
-        <FreezingCold>
-        Luckily, I still have this old sword I forgot in my inventory.
-
-        <FreezingCold>
-        It''s just a wood sword, but that''s better than nothing!
-
-        <System>
-        Press ''Mouse0'' (click) to attack.
-
-        <FreezingCold> This is getting
-        really dangerous.
+        dangerous.
 
         <FreezingCold> I should avoid these zombies.'
       objectReference: {fileID: 0}
