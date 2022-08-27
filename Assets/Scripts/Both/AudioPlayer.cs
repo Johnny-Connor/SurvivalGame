@@ -3,23 +3,18 @@ using UnityEngine;
 public class AudioPlayer : MonoBehaviour
 {
 
-    private AudioSource _audioSource;
+    [SerializeField] private AudioSource[] _audioSources;
     [SerializeField] private AudioClip[] _sounds;
 
-    private void Awake()
+    public void Play (int audioClipID, int audioSourceID)
     {
-        _audioSource = GetComponent<AudioSource>();
+        _audioSources[audioSourceID].clip = _sounds[audioClipID];
+        _audioSources[audioSourceID].Play();
     }
 
-    public void Play (int audioClipID)
+    public void Stop(int audioSourceID)
     {
-        _audioSource.clip = _sounds[audioClipID];
-        _audioSource.Play();
-    }
-
-    public void Stop()
-    {
-        _audioSource.Stop();
+        _audioSources[audioSourceID].Stop();
     }
 
 }

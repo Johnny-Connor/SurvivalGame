@@ -7,7 +7,7 @@ public class ButtonSound : MonoBehaviour
     [SerializeField] private int _soundIndex;
 
     public void ClickSound(){
-        _audioPlayer.Play(0);
+        _audioPlayer.Play(0, 0);
     }
 
 }

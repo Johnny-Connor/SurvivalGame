@@ -574,6 +574,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b05fb9a5b70b560409d657970bf73692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _audioSources:
+  - {fileID: 287023913}
   _sounds:
   - {fileID: 8300000, guid: a51071fa5ba44154b91ab810897c98e2, type: 3}
 --- !u!114 &287023915
@@ -1896,6 +1898,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b05fb9a5b70b560409d657970bf73692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _audioSources:
+  - {fileID: 765717243}
   _sounds:
   - {fileID: 8300000, guid: a51071fa5ba44154b91ab810897c98e2, type: 3}
 --- !u!1 &803500152
@@ -2230,6 +2234,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b05fb9a5b70b560409d657970bf73692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _audioSources:
+  - {fileID: 1040515540}
   _sounds:
   - {fileID: 8300000, guid: a51071fa5ba44154b91ab810897c98e2, type: 3}
 --- !u!222 &1040515544
@@ -3175,6 +3181,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b05fb9a5b70b560409d657970bf73692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _audioSources:
+  - {fileID: 1629580042}
   _sounds:
   - {fileID: 8300000, guid: a51071fa5ba44154b91ab810897c98e2, type: 3}
 --- !u!114 &1629580044
@@ -4288,6 +4296,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b05fb9a5b70b560409d657970bf73692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _audioSources:
+  - {fileID: 1861200338}
   _sounds:
   - {fileID: 8300000, guid: a51071fa5ba44154b91ab810897c98e2, type: 3}
 --- !u!82 &1861200338
@@ -4758,6 +4768,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b05fb9a5b70b560409d657970bf73692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _audioSources:
+  - {fileID: 1881044579}
   _sounds:
   - {fileID: 8300000, guid: a51071fa5ba44154b91ab810897c98e2, type: 3}
 --- !u!114 &1881044581
@@ -4953,7 +4965,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: -3453327249488935583, guid: 6311012ca7b549141a8f62b5de309f34, type: 2}
   m_audioClip: {fileID: 8300000, guid: 97dab5ea6a0e21546a6f0bcfd6aae05f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.2
+  m_Volume: 0.15
   m_Pitch: 1
   Loop: 1
   Mute: 0

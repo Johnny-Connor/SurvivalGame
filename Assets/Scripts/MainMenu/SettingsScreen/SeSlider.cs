@@ -39,7 +39,7 @@ public class SeSlider : MonoBehaviour
 
     private void SoundFeedback(){
         if (_hasScriptChangedSliderValue){
-            _audioPlayer.Play(0);
+            _audioPlayer.Play(0, 0);
         }
         else{
             _hasScriptChangedSliderValue = true;
