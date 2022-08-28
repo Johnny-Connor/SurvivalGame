@@ -1861,56 +1861,56 @@ MonoBehaviour:
     ART
 
 
-    Characters
-    - 0x72''s character generator (edited)
+    Blocks - Winos
+    (a.k.a Johnny Connor)
 
 
-    Title Font - Tower Ruins by Iconian
-    Fonts
+    Characters - 0x72''s character generator (edited)
+
+
+    Items
+    - Winos (a.k.a Johnny Connor)
 
 
     Text Font - VCR OSD Mono by mrmanet
 
 
-    Items - Winos (a.k.a Johnny
-    Connor)
-
-
-    Blocks - Winos (a.k.a Johnny Connor)
+    Title
+    Font - Tower Ruins by Iconian Fonts
 
 
 
     MUSIC
 
 
-    Main Menu
-    - Cliffside Hinson by C418
+    Game - Surface Pension
+    by C418
 
 
-    Game - Surface Pension by C418
+    Main Menu - Cliffside Hinson by C418
 
 
 
     SCRIPTS
 
 
-    2D
-    Character Controller - Brackeys (edited)
+    2D Character
+    Controller - Brackeys (edited)
 
 
 
     SOUNDS
 
 
+    Button - Video Game Menu Sounds
+    Menu Selection Change O Sound Effect by FesliyanStudios
+
+
     Hit - Crunchy-Punch-A
     by FesliyanStudios
 
 
-    Sword Swing - knife slash 2 by beerbelly38
-
-
-    Button
-    - Video Game Menu Sounds Menu Selection Change O Sound Effect by FesliyanStudios'
+    Sword Swing - knife slash 2 by beerbelly38'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fbeaf21f246acf14bb0f00e8435bfce8, type: 2}
   m_sharedMaterial: {fileID: 9108453229062462787, guid: fbeaf21f246acf14bb0f00e8435bfce8, type: 2}
