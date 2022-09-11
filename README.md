@@ -45,7 +45,7 @@ Music
 * Main Menu - [Cliffside Hinson by C418](https://c418.bandcamp.com/track/cliffside-hinson)
 
 Scripts
-* [2D Character Controller - Brackeys](https://github.com/Brackeys/2D-Character-Controller) (edited)
+* Player Movement - [2D Character Controller by Brackeys](https://github.com/Brackeys/2D-Character-Controller) (edited)
 
 Sounds
 * Button - [Video Game Menu Sounds Menu Selection Change 0 Sound Effect by Fesliyan Studios](https://www.fesliyanstudios.com/play-mp3/2910)
