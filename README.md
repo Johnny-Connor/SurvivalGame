@@ -1,10 +1,10 @@
 # About it
 
-A game I made in just 6 days for [Brackeys Game Jam 2022.2](https://itch.io/jam/brackeys-8), whose theme was "You're not alone". You can play the game in your browser by clicking [here](https://johnny-connor.itch.io/survival-game).
+A game I made for [Brackeys Game Jam 2022.2](https://itch.io/jam/brackeys-8), whose theme was "You're not alone". You can play the game in your browser by clicking [here](https://johnny-connor.itch.io/survival-game).
 
 # Development
 
-In this jam, participants had 7 days to develop their games. I had planned to finish the game a day before the submission day so I could review my game and maybe add some features but, as usual in game jams, unexpected things happened, so the schedule went somewhat like this:
+In this jam, participants had 7 days to develop their games. I had planned to finish my game a day before the submission day so I could have some time to further polish and maybe add some extra features in it. However, as usual in game jams, unexpected things happened, so the schedule went somewhat like this:
 
 * Day 1: Game's Idea
 * Day 2: Game's Art
