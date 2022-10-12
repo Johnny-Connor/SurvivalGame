@@ -1,4 +1,4 @@
-# About it
+# About
 
 A game I made for [Brackeys Game Jam 2022.2](https://itch.io/jam/brackeys-8), whose theme was "You're not alone". You can play the game in your browser by clicking [here](https://johnny-connor.itch.io/survival-game).
 
